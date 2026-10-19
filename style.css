@@ -1,25 +1,35 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
   margin: 0;
   background-color: #e6f4fc;
   color: #222;
 }
 
-.prihlaska {
-  text-align: right;
-  margin: 0;
-  padding: 15px 20px;
+header {
   background-color: white;
   border-bottom: 4px solid #1e88c9;
+  padding: 10px 20px;
+  overflow: hidden;
 }
 
-.prihlaska a {
+header img {
+  height: 50px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav a {
   color: #14527a;
   text-decoration: none;
   font-weight: bold;
+  margin-left: 15px;
 }
 
-.prihlaska a:hover {
+nav a:hover {
   color: #ff9f1c;
 }
 
@@ -38,12 +48,6 @@ section {
 
 h2 {
   color: #1e88c9;
-}
-
-.foto {
-  float: right;
-  margin-left: 20px;
-  border-radius: 10px;
 }
 
 .ozdoba {
