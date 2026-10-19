@@ -1,22 +1,31 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #c0e7ec;
+  background-color: #e6f4fc;
   color: #222;
+}
+
+.prihlaska {
+  text-align: right;
+  margin: 0;
+  padding: 15px 20px;
+  background-color: white;
+  border-bottom: 4px solid #1e88c9;
+}
+
+.prihlaska a {
+  color: #14527a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.prihlaska a:hover {
+  color: #ff9f1c;
 }
 
 main {
   width: 800px;
   margin: 20px auto;
-}
-
-main > p a {
-  color: #41c5d6;
-  font-weight: bold;
-}
-
-main > p a:hover {
-  color: #ff9f1c;
 }
 
 section {
@@ -28,13 +37,19 @@ section {
 }
 
 h2 {
-  color: #41c5d6;
+  color: #1e88c9;
+}
+
+.foto {
+  float: right;
+  margin-left: 20px;
+  border-radius: 10px;
 }
 
 .ozdoba {
   float: right;
-  height: 130px;
-  margin-left: 40px;
+  height: 90px;
+  margin-left: 20px;
 }
 
 li {
@@ -42,7 +57,7 @@ li {
 }
 
 footer {
-  background-color: #02a9af;
+  background-color: #14527a;
   color: white;
   text-align: center;
   padding: 15px;
