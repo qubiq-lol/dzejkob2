@@ -11,7 +11,7 @@ main {
 }
 
 main > p a {
-  color: #1e88c9;
+  color: #54d6e7;
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ section {
 }
 
 h2 {
-  color: #1e88c9;
+  color: #54d6e7;
 }
 
 .foto {
@@ -48,7 +48,7 @@ li {
 }
 
 footer {
-  background-color: #14527a;
+  background-color: #02a9af;
   color: white;
   text-align: center;
   padding: 15px;
